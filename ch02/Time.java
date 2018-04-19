@@ -8,7 +8,7 @@ public class Time
         int minute = 49;
         int second = 45;
 
-        final int NUMSECINDAY = 86400;
+        final int NUM_SEC_IN_DAY = 86400;
 
         System.out.print("The number of seconds since midnight is:  ");
         System.out.println((((hour * 60) + minute) * 60) + second); //82,185
@@ -16,7 +16,7 @@ public class Time
         System.out.println();
 
         System.out.print("The number of seconds remaining in the day is:  ");
-        System.out.println( NUMSECINDAY - ((((hour * 60) + minute) * 60) + second));
+        System.out.println( NUM_SEC_IN_DAY - ((((hour * 60) + minute) * 60) + second));
 
         System.out.println();
 
